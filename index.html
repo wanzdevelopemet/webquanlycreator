@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WANZ STUDIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">WANZ STUDIO</div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Trang Chủ</a></li>
+                <li><a href="#artists" class="nav-link">Nhà Sáng Tạo</a></li>
+                <li><a href="#works" class="nav-link">Sản Phẩm</a></li>
+                <li><a href="#partners" class="nav-link">Đối Tác</a></li>
+                <li><a href="#news" class="nav-link">Tin Tức</a></li>
+                <li><a href="#contact" class="nav-link">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Khám Phá Các Nhà Sáng Tạo</h1>
+            <p>Chúng tôi đại diện cho những nhà sáng tạo có tầm nhìn, những người định hình văn hóa, truyền cảm hứng cho khán giả và định nghĩa lại sự xuất sắc trong sáng tạo trên toàn cầu..</p>
+            <a href="#artists" class="cta-button">Khám Phá</a>
+        </div>
+    </section>
+
+    <!-- ARTISTS SECTION -->
+    <section class="section" id="artists">
+        <div class="container">
+            <h2 class="section-title">Nhà Sáng Tạo Của Chúng Tôi</h2>
+            <div class="artists-grid reveal">
+                <div class="artist-card" data-artist="1">
+                    <img src="https://i.postimg.cc/g2pJgKfw/IMG-9276.jpg" alt="Artist" class="artist-image">
+                    <div class="artist-info">
+                        <h3 class="artist-name">Gamekhovl206</h3>
+                        <p class="artist-role">Nhà sáng tạo nội dung – Streamer game</p>
+                        <p class="artist-description">Nhà sáng tạo nội dung và streamer game trên TikTok, chuyên livestream gameplay và mang đến các nội dung giải trí với tính tương tác cao cho cộng đồng người xem.</p>
+                        <div class="artist-actions">
+                            <button class="icon-button view-profile"><i class="fas fa-user"></i> Profile</button>
+                            <button class="icon-button"><i class="fa-brands fa-tiktok"></i> Works</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="artist-card" data-artist="2">
+                    <img src="https://i.postimg.cc/N0zQv8P2/5bc9b7677d5e4d64b07a070f5cc4d53e-tplv-tiktokx-cropcenter-1080-1080.jpg" alt="Artist" class="artist-image">
+                    <div class="artist-info">
+                        <h3 class="artist-name">Vdarkk</h3>
+                        <p class="artist-role">Nhà sáng tạo nội dung – Streamer game</p>
+                        <p class="artist-description">Nhà sáng tạo nội dung và streamer game trên TikTok, tập trung vào livestream gameplay và xây dựng phong cách cá nhân thông qua nội dung game giải trí..</p>
+                        <div class="artist-actions">
+                            <button class="icon-button view-profile"><i class="fas fa-user"></i> Profile</button>
+                            <button class="icon-button"><i class="fa-brands fa-tiktok"></i> Works</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="artist-card" data-artist="3">
+                    <img src="https://i.postimg.cc/VLW1kPV6/2024-05-28-13-08-53.png" alt="Artist" class="artist-image">
+                    <div class="artist-info">
+                        <h3 class="artist-name">KizoMC  </h3>
+                        <p class="artist-role">Nhà sáng tạo nội dung – Nhạc sĩ</p>
+                        <p class="artist-description">Nhà sáng tạo nội dung kiêm nhạc sĩ trên YouTube, tập trung vào sáng tác và sản xuất âm nhạc mang dấu ấn cá nhân trên nền tảng số.</p>
+                        <div class="artist-actions">
+                            <button class="icon-button view-profile"><i class="fas fa-user"></i> Profile</button>
+                            <button class="icon-button"><i class="fa-brands fa-youtube"></i> Works</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="artist-card" data-artist="4">
+                    <img src="https://i.postimg.cc/3xfsk8js/zukiter.png" alt="Artist" class="artist-image">
+                    <div class="artist-info">
+                        <h3 class="artist-name">Zukiter</h3>
+                        <p class="artist-role">Streamer game</p>
+                        <p class="artist-description">Streamer game trên TikTok, chuyên livestream gameplay và tạo không gian giải trí gần gũi thông qua tương tác trực tiếp với người xem..</p>
+                        <div class="artist-actions">
+                            <button class="icon-button view-profile"><i class="fas fa-user"></i> Profile</button>
+                            <button class="icon-button"><i class="fa-brands fa-tiktok"></i> Works</button>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- WORKS SECTION -->
+    <section class="section" id="works" style="background: var(--bg-gray);">
+        <div class="container">
+            <h2 class="section-title">Sản Phẩm Nổi Bật</h2>
+            <div class="works-filters">
+                <button class="filter-button active" data-filter="all">Tất Cả</button>
+                <button class="filter-button" data-filter="visual">Phim Ảnh</button>
+                <button class="filter-button" data-filter="music">Nhạc</button>
+                <button class="filter-button" data-filter="performance">Sự Kiện</button>
+            </div>
+            <div class="works-grid reveal">
+                <div class="work-card" data-category="performance">
+                    <img src="https://i.redd.it/t0gszwyk65jc1.jpeg" alt="Work" class="work-image">
+                    <div class="work-overlay">
+                        <h3 class="work-title" style="color: white;">Bedwars Tournament</h3>
+                        <div class="work-meta" style="color: rgba(255,255,255,0.9);">
+                            <span>Gamekhovl206</span>
+                            <span>Coming Soon</span>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <h3 class="work-title">Bedwars Tournament</h3>
+                        <div class="work-meta">
+                            <span class="work-category">Sự Kiện</span>
+                            <span>Coming Soon</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-card" data-category="visual">
+                    <img src=" " alt="Work" class="work-image">
+                    <div class="work-overlay">
+                        <h3 class="work-title" style="color: white;">Phim Ngắn Đổi Chổ Đổi Cả Con Tim</h3>
+                        <div class="work-meta" style="color: rgba(255,255,255,0.9);">
+                            <span>KizoMC</span>
+                            <span>Coming Soon</span>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <h3 class="work-title">Phim Ngắn Đổi Chổ Đổi Cả Con Tim</h3>
+                        <div class="work-meta">
+                            <span class="work-category">Phim Ảnh</span>
+                            <span>Coming Soon</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-card" data-category="music">
+                    <img src="https://i.postimg.cc/9M5N9rDx/CUNG-ANH-EM.png" alt="Work" class="work-image">
+                    <div class="work-overlay">
+                        <h3 class="work-title" style="color: white;">Cùng Anh Em Bước Đều</h3>
+                        <div class="work-meta" style="color: rgba(255,255,255,0.9);">
+                            <span>KizoMC</span>
+                            <span>2025</span>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <h3 class="work-title">Cùng Anh Em Bước Đều</h3>
+                        <div class="work-meta">
+                            <span class="work-category">Nhạc</span>
+                            <span>2025</span>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- PARTNERS SECTION -->
+    <section class="section partners-section" id="partners">
+        <div class="container">
+            <h2 class="section-title">Our Partners</h2>
+            <p style="text-align: center; color: var(--text-light); max-width: 700px; margin: 0 auto var(--spacing-lg);">
+                Chúng tôi hợp tác cùng các đối tác uy tín nhằm mang đến những giá trị bền vững, nâng cao chất lượng dịch vụ và mở rộng cơ hội phát triển lâu dài cho cả hai bên.
+            </p>
+            <div class="partners-grid reveal">
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <i class="fa-solid fa-shop"></i>
+                    </div>
+                    <h3 class="partner-name">Kizo Shop</h3>
+                    <p class="partner-description">KizoShop chuyên cung cấp tài khoản Minecraft uy tín, dịch vụ setup Discord, cài đặt & tối ưu Pterodactyl, hosting Minecraft, Cloud VPS và các tiện ích hỗ trợ server chuyên nghiệp. Uy tín – nhanh gọn – hỗ trợ tận tâm.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWS SECTION -->
+    <section class="section" id="news">
+        <div class="container">
+            <h2 class="section-title">Tin Tức</h2>
+            <div class="news-grid reveal">
+                <p class="news-card" style="text-align: center;">Không Có Tin Tức</p>
+                <!-- <div class="news-card">
+                    <p class="news-date"><i class="far fa-calendar"></i> December 15, 2024</p>
+                    <h3 class="news-title">Elena Rodriguez Wins International Art Prize</h3>
+                    <p class="news-summary">Celebrated for her groundbreaking exhibition exploring cultural identity through mixed media installations at the Venice Biennale.</p>
+                    <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section" id="contact" style="background: var(--bg-gray);">
+        <div class="container">
+            <h2 class="section-title">Liên Hệ</h2>
+            <div class="contact-container reveal">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Trụ Sở Của Chúng Tôi</h3>
+                            <p>Việt Nam</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>contact@wanzstudio.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Gọi Điện</h3>
+                            <p>+84 .....<br>Thứ 2 - 6: 9:00 Sáng - 6:00 Chiều</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Họ Tên</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="form-error" id="nameError">Vui Lòng Nhập Tên Của Bạn</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="form-error" id="emailError">Vui Lòng Nhập Email Của Bạn</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Tin Nhắn</label>
+                        <textarea id="message" name="message" required></textarea>
+                        <span class="form-error" id="messageError">Vui Lòng Nhập Tin Nhắn Của Bạn</span>
+                    </div>
+                    <button type="submit" class="submit-button">Gửi Tin Nh<i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ARTIST MODAL -->
+    <div class="modal" id="artistModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="modal-close" id="modalClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Wanz Studio</h3>
+                <p>Wanz Studio là đơn vị quản lý và phát triển nhà sáng tạo nội dung. Chúng tôi đồng hành cùng creator trong việc xây dựng hình ảnh cá nhân, định hướng nội dung, quản lý truyền thông và kết nối thương hiệu.
+Mục tiêu của Wanz Studio là tạo ra giá trị bền vững, phát triển lâu dài và chuyên nghiệp hóa con đường sáng tạo nội dung.</p>
+            </div>
+            <div class="footer-section">
+                <ul class="footer-links">
+                    <li><a href="#home">Trang Chủ</a></li>
+                    <li><a href="#artists">Nhà Sáng Tạo</a></li>
+                    <li><a href="#works">Sản Phẩm</a></li>
+                    <li><a href="#news">Tin Tức</a></li>
+                    <li><a href="#contact">Liên Hệ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Theo Dõi Chúng Tôi</h3>
+                <div class="footer-social">
+                    <a href="#" class="footer-social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="footer-social-link"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Wanz Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Artist Data
+        const artistsData = {
+            1: {
+                name: "Gamekhovl206",
+                role: "Gaming Content – Livestream",
+                image: "https://i.postimg.cc/g2pJgKfw/IMG-9276.jpg",
+                bio: "gamekhovl206 là nhà sáng tạo nội dung và streamer game hoạt động chủ yếu trên TikTok. Kênh tập trung vào livestream gameplay, nội dung giải trí và tương tác trực tiếp với người xem, hướng đến cộng đồng game thủ trẻ yêu thích sự vui nhộn và gần gũi.",
+                highlights: [
+                    "Livestream chơi game",
+                    "Khoảnh khắc giải trí, highlight gameplay",
+                    "Tương tác trực tiếp với người xem",
+                    "Không khí stream thoải mái, năng động"
+                ],
+                social: {
+                    instagram: "#",
+                    tiktok: "https://www.tiktok.com/@minefa13",
+                    facebook: "#"
+                }
+            },
+            2: {
+                name: "Vdarkk",
+                role: "Gaming Content – Livestream",
+                image: "https://i.postimg.cc/N0zQv8P2/5bc9b7677d5e4d64b07a070f5cc4d53e-tplv-tiktokx-cropcenter-1080-1080.jpg",
+                bio: "vdarkk là nhà sáng tạo nội dung và streamer game trên TikTok, tập trung xây dựng kênh thông qua các buổi livestream gameplay và video ngắn về game. Nội dung mang tính giải trí cao, phản ánh chân thực trải nghiệm chơi game..",
+                highlights: [
+                    "Livestream gameplay",
+                    "Nội dung game mang tính cá nhân",
+                    "Tương tác trực tiếp với cộng đồng",
+                    "Phong cách cá tính, rõ ràng"
+                ],
+                social: {
+                    instagram: "#",
+                    tiktok: "https://www.tiktok.com/@gbao190520",
+                    facebook: "#"
+                }
+            },
+            3: {
+                name: "KizoMC",
+                role: "Music Content – Sáng tác & Sản xuất : Gaming Content",
+                image: "https://i.postimg.cc/VLW1kPV6/2024-05-28-13-08-53.png",
+                bio: "KizoMC là nhà sáng tạo nội dung kiêm nhạc sĩ hoạt động trên YouTube. Kênh tập trung vào sáng tác, sản xuất và phát hành các sản phẩm âm nhạc mang dấu ấn cá nhân, hướng tới cộng đồng người nghe trẻ yêu thích âm nhạc số.",
+                highlights: [
+                    "Sáng tác và phát hành nhạc",
+                    "Nội dung âm nhạc mang màu sắc cá nhân",
+                    "Video âm nhạc, audio, visualizer",
+                    "Sản xuất các nội dung về game"
+                ],
+                social: {
+                    instagram: "#",
+                    tiktok: "https://www.youtube.com/@kizomc242",
+                    facebook: "#"
+                }
+            },
+            4: {
+                name: "Zukiter",
+                role: "Gaming Livestream",
+                image: "https://i.postimg.cc/3xfsk8js/zukiter.png",
+                bio: "zukiter là streamer game trên TikTok, tập trung vào livestream gameplay và xây dựng cộng đồng người xem thông qua nội dung giải trí và tương tác cao. Kênh hướng đến sự gần gũi, thân thiện và dễ tiếp cận.",
+                highlights: [
+                    "Livestream chơi game",
+                    "Tương tác trực tiếp với người xem",
+                    "Nội dung giải trí, không khí thoải mái ",
+                    "Duy trì tần suất hoạt động ổn định"
+                ],
+                social: {
+                    instagram: "#",
+                    tiktok: "https://www.tiktok.com/@khoidepzaiso1tg1",
+                    facebook: "#"
+                }
+            }
+        };
+
+        // Mobile Menu Toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking nav links
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Header Scroll Effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Scroll Reveal Animation
+        const revealElements = document.querySelectorAll('.reveal');
+        
+        const revealOnScroll = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+
+        revealElements.forEach(el => revealOnScroll.observe(el));
+
+        // Works Filter
+        const filterButtons = document.querySelectorAll('.filter-button');
+        const workCards = document.querySelectorAll('.work-card');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const filter = button.dataset.filter;
+                
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                workCards.forEach(card => {
+                    if (filter === 'all' || card.dataset.category === filter) {
+                        card.style.display = 'block';
+                        setTimeout(() => {
+                            card.style.opacity = '1';
+                            card.style.transform = 'scale(1)';
+                        }, 10);
+                    } else {
+                        card.style.opacity = '0';
+                        card.style.transform = 'scale(0.8)';
+                        setTimeout(() => {
+                            card.style.display = 'none';
+                        }, 300);
+                    }
+                });
+            });
+        });
+
+        // Artist Modal
+        const modal = document.getElementById('artistModal');
+        const modalBody = document.getElementById('modalBody');
+        const modalClose = document.getElementById('modalClose');
+        const viewProfileButtons = document.querySelectorAll('.view-profile');
+
+        viewProfileButtons.forEach(button => {
+            button.addEventListener('click', (e) => {
+                const card = e.target.closest('.artist-card');
+                const artistId = card.dataset.artist;
+                const artist = artistsData[artistId];
+
+                modalBody.innerHTML = `
+                    <img src="${artist.image}" alt="${artist.name}" class="modal-image">
+                    <h2 class="modal-title">${artist.name}</h2>
+                    <p class="modal-subtitle">${artist.role}</p>
+                    
+                    <div class="modal-section">
+                        <h3>Thông Tin</h3>
+                        <p>${artist.bio}</p>
+                    </div>
+                    
+                    <div class="modal-section">
+                        <h3>Phong Cách Nội Dung</h3>
+                        <ul style="padding-left: 1.5rem; color: var(--text-light);">
+                            ${artist.highlights.map(h => `<li style="margin-bottom: 0.5rem;">${h}</li>`).join('')}
+                        </ul>
+                    </div>
+                    
+                    <div class="modal-section">
+                        <h3>Kết Nối</h3>
+                        <div class="social-links">
+                            <a href="${artist.social.instagram}" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="${artist.social.tiktok}" class="social-link"><i class="fab fa-tiktok"></i></a>
+                            <a href="${artist.social.facebook}" class="social-link"><i class="fas fa-facebook"></i></a>
+                        </div>
+                    </div>
+                `;
+
+                modal.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        modalClose.addEventListener('click', () => {
+            modal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+        // Contact Form Validation
+        const contactForm = document.getElementById('contactForm');
+        
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            const name = document.getElementById('name');
+            const email = document.getElementById('email');
+            const message = document.getElementById('message');
+            
+            let isValid = true;
+
+            // Reset errors
+            document.querySelectorAll('.form-error').forEach(error => {
+                error.style.display = 'none';
+            });
+
+            // Validate name
+            if (name.value.trim() === '') {
+                document.getElementById('nameError').style.display = 'block';
+                isValid = false;
+            }
+
+            // Validate email
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailPattern.test(email.value)) {
+                document.getElementById('emailError').style.display = 'block';
+                isValid = false;
+            }
+
+            // Validate message
+            if (message.value.trim() === '') {
+                document.getElementById('messageError').style.display = 'block';
+                isValid = false;
+            }
+
+            if (isValid) {
+                alert('Thank you for your message! We will get back to you soon.');
+                contactForm.reset();
+            }
+        });
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
